@@ -1,0 +1,58 @@
+/* COLLECTION */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: #EAEAEA;
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  background-image: url(images/Photo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.button {
+  color: #EAEAEA;
+  border: 2px solid;
+  border-radius: 0px;
+  font-weight: 700;
+  padding: 4px 16px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  color: rgb(85, 85, 85);
+}
+
+.button2 {
+  color: #EAEAEA;
+  border: 1px solid;
+  border-radius: 0px;
+  font-weight: 450;
+  padding: 2px 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.5s;
+}
+
+.button2:hover {
+  color: rgb(85, 85, 85);
+}
+
